@@ -217,7 +217,7 @@ class pokeRogue:
                 data["dexData"][entry] = {
                               "seenAttr": 247,
                               "caughtAttr": 247,
-                              "natureAttr": 63525972,
+                              "natureAttr": 67108862,
                               "seenCount": seen,
                               "caughtCount": caught,
                               "hatchedCount": 0,
@@ -281,7 +281,7 @@ class pokeRogue:
             else: isShiny = 149
             seenAttr = isShiny
             caughtAttr = isShiny
-            natureAttr = 63525972
+            natureAttr = 67108862
             caught = int(input("How many of this Pokemon have you caught? (at least one) (+1 candy per)(number): "))
             hatched = int(input("How many of this pokemon have you hatched? (at least one) (+2 candy per hatch)(number): "))
             seenCount = int(input("How many of this Pokemon have you seen? (Needs to be more or equal to caught)(number): "))
