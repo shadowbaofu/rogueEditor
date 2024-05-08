@@ -16,16 +16,14 @@
 
 Some antivirus software may give false positives when running this program.
 Feel free to decompile it and look at its content.
-- Compiled with pyinstaller
+- Compiled with PyInstaller
 
 ## Q & A
-Will i get banned for using this?
+
+Will I get banned for using this?
 - Unlikely, but use common sense.
 
+## Final Words
 
-## Final words
 I take no responsibility for your actions when using this script.
 This is a proof of concept / educational project.
-
-
-
