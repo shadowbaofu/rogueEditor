@@ -27,4 +27,5 @@ Will I get banned for using this?
 
 - I take no responsibility for your actions when using this script.
 This is a proof of concept / educational project.
-- Yes, the code is a mess. feel free to improve it.
+- Yes, the code is lazy. 
+Feel free to improve it.
