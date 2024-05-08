@@ -1,6 +1,6 @@
-# rogueEdit
+# rogueEditor
 
-**rogueEdit** is a simple Pokerogue.net save editor written in Python.
+**rogueEditor** is a simple Pokerogue.net save editor written in Python.
 
 ![cmd](https://i.imgur.com/jhZwPAf.png)
 
