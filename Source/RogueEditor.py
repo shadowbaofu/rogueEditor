@@ -17,19 +17,19 @@ class pokeRogue:
     def __init__(self, user, password, log_error = True):
         
         #Login api url
-        self.login_url = "https://pokerogue.net/api/account/login"
+        self.login_url = "https://api.pokerogue.net/account/login"
         
         #Get trainer data api url
-        self.trainer_data_url = "https://pokerogue.net/api/savedata/get?datatype=0"
+        self.trainer_data_url = "https://api.pokerogue.net/savedata/get?datatype=0"
         
         #Update trainer data api url
-        self.update_trainer_data_url = "https://pokerogue.net/api/savedata/update?datatype=0"
+        self.update_trainer_data_url = "https://api.pokerogue.net/savedata/update?datatype=0"
         
         #Get gamesave data api url (slot required) -> int 0-4
-        self.gamesave_slot_url = "https://pokerogue.net/api/savedata/get?datatype=1&slot="
+        self.gamesave_slot_url = "https://api.pokerogue.net/savedata/get?datatype=1&slot="
         
         #Update gamesave data api url (slot required) -> int 0-4
-        self.update_gamesave_slot_url = "https://pokerogue.net/api/savedata/update?datatype=1&slot="
+        self.update_gamesave_slot_url = "https://api.pokerogue.net/savedata/update?datatype=1&slot="
         
         #Login headers
         self.headers = {
@@ -215,8 +215,8 @@ class pokeRogue:
                 total_seen += seen
                 
                 data["dexData"][entry] = {
-                              "seenAttr": 191,
-                              "caughtAttr": 191,
+                              "seenAttr": 247,
+                              "caughtAttr": 247,
                               "natureAttr": 63525972,
                               "seenCount": seen,
                               "caughtCount": caught,
@@ -277,7 +277,7 @@ class pokeRogue:
                        return print(f"There's no Pokemon with the Name: {dexId}")
                         
             isShiny = int(input("Do you want the Pokemon to be shiny? (1: Yes, 2: No)(number): "))
-            if isShiny == 1:  isShiny = 191
+            if isShiny == 1:  isShiny = 247
             else: isShiny = 149
             seenAttr = isShiny
             caughtAttr = isShiny
