@@ -50,7 +50,7 @@ Unlock all starters with perfect ivs and all shiny variants
 - This will unlock every single Pokemon in the Pokedex with Perfect IVs, All natures, All shiny variants, Random amount of eggmoves and lots of candies
 
 Display all starter Pokemon names with their Ids
-- This simply shows you all the available pokemon in the game with their names and id (Useful when you want to modify specific Pokemon)
+- This simply shows you all the available Pokemon in the game with their names and id (Useful when you want to modify specific Pokemon)
   
 ## Q & A
 
