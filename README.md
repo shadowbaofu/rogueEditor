@@ -20,5 +20,12 @@ Feel free to decompile it and look at its content.
 
 ## Q & A
 Will i get banned for using this?
-- Unlikely.
+- Unlikely, but use common sense.
+
+
+## Final words
+I take no responsibility for your actions when using this script.
+This is a proof of concept / educational project.
+
+
 
