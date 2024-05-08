@@ -24,6 +24,7 @@ Feel free to decompile it and look at its content.
 
 Will I get banned for using this?
 - Unlikely, but use common sense.
+  
 Why did nothing happen after my modifications?
 - Refresh pokerogue.net in your browser.
 
