@@ -20,8 +20,38 @@
 
 Some antivirus software may give false positives when running this program.
 Feel free to decompile it and look at its content.
-- Compiled with PyInstaller
+- Compiled with PyInstaller 
 
+## Usage
+(Refresh your pokerogue.net page after any modifications!)
+
+Hatch all eggs
+- This will make all your eggs hatch after you defeat 1 Pokemon.
+
+Dump trainer data to json file
+- This will download your trainer data and generate a file called trainer.json (This file contains data such as stats, gacha tickets, etc) -> Edit the file with notepad or notepad ++
+
+Dump save data (slot 1-5) to json file
+- This will download your session data from one of your saves (slot 1-5) (This file contains data such as money, wave, your pokemons level and stats, etc) -> Edit the file with notepad or notepad ++
+
+Update trainer data from dumped json file
+- This will reupload the trainer.json file to pokerouge.net's servers
+
+Update save data (slot 1-5) from dumped json file
+- This will reupload the slot(number).json file to pokerouge.net's servers
+
+Add/Modify a starter Pokemon (Pokemon name or Pokedex Id)
+- This allows you to unlock and/or modify a Pokemon by its name or id (Shiny, Nature, Individual ivs, Eggmoves, Candies, etc)
+
+Modify the amount of egg gacha tickets you have
+- This allows you to set the amount of egg gacha tickets you have of every tier
+
+Unlock all starters with perfect ivs and all shiny variants
+- This will unlock every single Pokemon in the Pokedex with Perfect IVs, All natures, All shiny variants, Random amount of eggmoves and lots of candies
+
+Display all starter Pokemon names with their Ids
+- This simply shows you all the available pokemon in the game with their names and id (Useful when you want to modify specific Pokemon)
+  
 ## Q & A
 
 Will I get banned for using this?
