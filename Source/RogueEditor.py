@@ -383,7 +383,7 @@ if __name__ ==  '__main__':
             break
         
         except:
-            print("Incorrect login information... try again!")
+            print("Incorrect login information/server down... try again!")
 
     print(f"Successfully logged in as: {username.capitalize()}")
                
