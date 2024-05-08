@@ -12,8 +12,8 @@
 ## Running the program without Python
 
 - Download rogueEditor.zip from the "Compiled" folder or [here](https://github.com/OnyxdevSoftware/rogueEditor/raw/main/Compiled/rogueEditor.zip)
-- Unzip/extract it into your desired location it and run "rogueEditor.exe".
-- It's recommended to create a new folder for its content.
+- Unzip/extract it into your desired location (It's recommended to create a new folder)
+- Run the program with "rogueEditor.exe"
 
 ## Warning
 
