@@ -17,3 +17,8 @@
 Some antivirus software may give false positives when running this program.
 Feel free to decompile it and look at its content.
 - Compiled with pyinstaller
+
+## Q & A
+Will i get banned for using this?
+- Unlikely.
+
