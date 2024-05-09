@@ -60,6 +60,9 @@ Will I get banned for using this?
 Why did nothing happen after my modifications?
 - Refresh pokerogue.net in your browser.
 
+How can i use this on the local version of Pokerogue?
+- You can modify the API endpoints in the source to point towards localhost:8000
+
 ## Final Words
 
 - I take no responsibility for your actions when using this script.
