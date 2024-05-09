@@ -69,4 +69,4 @@ Feel free to improve it.
 
 <!-- Metadata: keywords -->
 <meta name="description" content="rogueEditor is a simple Pokerogue.net save editor written in Python.">
-<meta name="keywords" content="pokerogue, pokerogue save editor, pokerogue hacks, pokerogue hack,  pokerogue cheats, pokerogue cheat, pokerogue trainer, rogueEditor, gacha, ticket, tickets, egg, eggs, shiny">
+<meta name="keywords" content="pokerogue, pokerogue save editor, pokerogue hacks, pokerogue hack, pokerogue cheats, pokerogue cheat, pokerogue trainer, rogueEditor, gacha, ticket, tickets, egg, eggs, shiny">
