@@ -66,3 +66,8 @@ Why did nothing happen after my modifications?
 This is a proof of concept / educational project.
 - Yes, the code is lazy. 
 Feel free to improve it.
+
+<!-- Metadata: keywords -->
+<meta name="description" content="rogueEditor is a simple Pokerogue.net save editor written in Python.">
+<meta name="keywords" content="pokerogue, pokerogue save editor, pokerogue hacks, pokerogue hack,  pokerogue cheats, pokerogue cheat, pokerogue trainer, gacha, egg">
+<!-- Metadata: keywords end -->
