@@ -63,6 +63,11 @@ Why did nothing happen after my modifications?
 How can i use this on the local version of Pokerogue?
 - You can modify the API endpoints in the source to point towards localhost:8000.
 
+## Discord
+
+Would you like to contact me?
+- Add me on Discord -> onyxdev
+
 ## Final Words
 
 - I take no responsibility for your actions when using this script.
