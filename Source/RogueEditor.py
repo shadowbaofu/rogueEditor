@@ -215,8 +215,8 @@ class pokeRogue:
                 total_seen += seen
                 
                 data["dexData"][entry] = {
-                              "seenAttr": 247,
-                              "caughtAttr": 247,
+                              "seenAttr": 479,
+                              "caughtAttr": 255,
                               "natureAttr": 67108862,
                               "seenCount": seen,
                               "caughtCount": caught,
@@ -233,7 +233,7 @@ class pokeRogue:
                 
                 data["starterData"][entry] = {
                             "moveset": None,
-                            "eggMoves": random.randint(4, 24),
+                            "eggMoves": 15,
                             "candyCount": caught + 20,
                             "abilityAttr": 5,
                             "passiveAttr": 0,
@@ -277,20 +277,20 @@ class pokeRogue:
                        return print(f"There's no Pokemon with the Name: {dexId}")
                         
             isShiny = int(input("Do you want the Pokemon to be shiny? (1: Yes, 2: No)(number): "))
-            if isShiny == 1:  isShiny = 247
-            else: isShiny = 149
-            seenAttr = isShiny
+            if isShiny == 1:  isShiny = 255
+            else: isShiny = 253
+            seenAttr = 479
             caughtAttr = isShiny
             natureAttr = 67108862
             caught = int(input("How many of this Pokemon have you caught? (at least one) (+1 candy per)(number): "))
             hatched = int(input("How many of this pokemon have you hatched? (at least one) (+2 candy per hatch)(number): "))
             seenCount = int(input("How many of this Pokemon have you seen? (Needs to be more or equal to caught)(number): "))
-            spatk_iv = int(input("What's the special attack IV of the Pokemon(number): "))
-            def_iv = int(input("What's the [special attack IV] of the Pokemon(number): "))
-            atk_iv = int(input("What's the [defense IV] of the Pokemon(number): "))
-            hp_iv = int(input("What's the [health IV] of the Pokemon(number): "))
-            spd_iv = int(input("What's the [speed IV] of the Pokemon(number): "))
-            spdef_iv = int(input("What's the [special defense IV] of the Pokemon(number): "))
+            spatk_iv = int(input("What's the special attack IV of the Pokemon?(number): "))
+            def_iv = int(input("What's the [special attack IV] of the Pokemon?(number): "))
+            atk_iv = int(input("What's the [defense IV] of the Pokemon?(number): "))
+            hp_iv = int(input("What's the [health IV] of the Pokemon?(number): "))
+            spd_iv = int(input("What's the [speed IV] of the Pokemon?(number): "))
+            spdef_iv = int(input("What's the [special defense IV] of the Pokemon?(number): "))
             ivs = [spatk_iv, def_iv, atk_iv, hp_iv, spd_iv, spdef_iv]
 
             data["dexData"][dexId] = {
@@ -305,7 +305,7 @@ class pokeRogue:
 
             data["starterData"][dexId] = {
               "moveset": None,
-              "eggMoves": random.randint(4, 20),
+              "eggMoves": 15,
               "candyCount": caught + (hatched * 2),
               "abilityAttr": 5,
               "passiveAttr": 0,
