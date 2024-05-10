@@ -66,7 +66,7 @@ How can i use this on the local version of Pokerogue?
 ## Discord
 
 Would you like to contact me?
-- Add me on Discord -> onyxdev
+- Add me on Discord: **onyxdev**
 
 ## Final Words
 
