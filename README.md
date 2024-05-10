@@ -3,7 +3,7 @@
 **rogueEditor** is a simple Pokerogue.net save editor written in Python.
 
 ![cmd](https://i.imgur.com/jhZwPAf.png)
-![dex](https://i.imgur.com/tOkmhfa.png)
+![dex](https://i.imgur.com/qlBHkEO.png)
 
 ## Requirements
 
