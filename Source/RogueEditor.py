@@ -17,19 +17,19 @@ class pokeRogue:
     def __init__(self, user, password, log_error = True):
         
         #Login api url
-        self.login_url = "https://api.pokerogue.net/account/login"
+        self.login_url = "localhost:8000"
         
         #Get trainer data api url
-        self.trainer_data_url = "https://api.pokerogue.net/savedata/get?datatype=0"
+        self.trainer_data_url = "localhost:8000"
         
         #Update trainer data api url
-        self.update_trainer_data_url = "https://api.pokerogue.net/savedata/update?datatype=0"
+        self.update_trainer_data_url = "localhost:8000"
         
         #Get gamesave data api url (slot required) -> int 0-4
-        self.gamesave_slot_url = "https://api.pokerogue.net/savedata/get?datatype=1&slot="
+        self.gamesave_slot_url = "localhost:8000"
         
         #Update gamesave data api url (slot required) -> int 0-4
-        self.update_gamesave_slot_url = "https://api.pokerogue.net/savedata/update?datatype=1&slot="
+        self.update_gamesave_slot_url = "localhost:8000"
         
         #Login headers
         self.headers = {
