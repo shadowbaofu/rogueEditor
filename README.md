@@ -68,8 +68,11 @@ Why did nothing happen after my modifications?
 - Refresh pokerogue.net in your browser.
 
 Why does the program say that my login information is incorrect when it's not?
-- You may be temporarily flagged by Cloudflare. (Changing connection/IP will fix this)
+- You may be temporarily flagged by Cloudflare. (Changing connection/ip will fix this)
 - Pokerogue may be down or lagging (This causes the program to timeout)
+
+By running the source via a replit.com fork, will it bypass my cloudflare issues?
+- Yes.
 
 How can i use this on the local version of Pokerogue?
 - You can modify the API endpoints in the source to point towards localhost:8000.
