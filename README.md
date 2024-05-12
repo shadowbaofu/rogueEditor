@@ -16,6 +16,15 @@
 - Unzip/extract it into your desired location (It's recommended to create a new folder)
 - Run the program with "rogueEditor.exe"
 
+## Running the program in the browser
+Want to run the program in the browser without downloading anything?
+- Register at https://replit.com
+- Navigate to https://replit.com/@OnyxdevSoftware/rogueEditor
+- Click fork and run
+
+This requires no setup, as the fork will handle it for you automatically.
+Just run the program once you're done.
+
 ## Warning
 
 Some antivirus software may give false positives when running this program.
@@ -59,6 +68,10 @@ Will I get banned for using this?
   
 Why did nothing happen after my modifications?
 - Refresh pokerogue.net in your browser.
+
+Why does the program say that my login information is incorrect when it's not?
+- You may be temporarily flagged by Cloudflare. (Changing ip/connection will fix this)
+- Pokerogue may be down or lagging
 
 How can i use this on the local version of Pokerogue?
 - You can modify the API endpoints in the source to point towards localhost:8000.
