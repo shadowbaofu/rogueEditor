@@ -71,7 +71,7 @@ Why does the program say that my login information is incorrect when it's not?
 - You may be temporarily flagged by Cloudflare. (Changing connection/ip will fix this)
 - Pokerogue may be down or lagging (This causes the program to timeout)
 
-By running the source via a replit.com fork, will it bypass my cloudflare issues?
+Can i bypass the Cloudflare issues by running the program via the replit.com fork?
 - Yes.
 
 How can i use this on the local version of Pokerogue?
