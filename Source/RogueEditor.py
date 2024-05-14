@@ -235,7 +235,7 @@ class pokeRogue:
                             "moveset": None,
                             "eggMoves": 15,
                             "candyCount": caught + 20,
-                            "abilityAttr": 5,
+                            "abilityAttr": 7,
                             "passiveAttr": 0,
                             "valueReduction": 0
                             }
@@ -285,9 +285,9 @@ class pokeRogue:
             caught = int(input("How many of this Pokemon have you caught? (at least one) (+1 candy per)(number): "))
             hatched = int(input("How many of this pokemon have you hatched? (at least one) (+2 candy per hatch)(number): "))
             seenCount = int(input("How many of this Pokemon have you seen? (Needs to be more or equal to caught)(number): "))
-            spatk_iv = int(input("What's the special attack IV of the Pokemon?(number): "))
-            def_iv = int(input("What's the [special attack IV] of the Pokemon?(number): "))
-            atk_iv = int(input("What's the [defense IV] of the Pokemon?(number): "))
+            spatk_iv = int(input("What's the [special attack IV] of the Pokemon?(number): "))
+            def_iv = int(input("What's the [defense IV] of the Pokemon?(number): "))
+            atk_iv = int(input("What's the [attack IV] of the Pokemon?(number): "))
             hp_iv = int(input("What's the [health IV] of the Pokemon?(number): "))
             spd_iv = int(input("What's the [speed IV] of the Pokemon?(number): "))
             spdef_iv = int(input("What's the [special defense IV] of the Pokemon?(number): "))
@@ -307,7 +307,7 @@ class pokeRogue:
               "moveset": None,
               "eggMoves": 15,
               "candyCount": caught + (hatched * 2),
-              "abilityAttr": 5,
+              "abilityAttr": 7,
               "passiveAttr": 0,
               "valueReduction": 0
                 }
